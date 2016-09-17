@@ -16,10 +16,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sciencetogether.github.io/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
-permalink: /tools/:title.html
+#permalink: /tools/:title.html
 # Build settings
 markdown: kramdown
 collections:
   tools:
     output: true
-
+defaults:
+  - scope:
+      path: ""
+      type: tools
+    values:
+      layout: page
