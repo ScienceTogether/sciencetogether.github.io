@@ -1,0 +1,25 @@
+---
+layout: page
+title: Tools
+permalink: /tools/
+---
+
+
+{{ collection_titles }}
+<br>
+
+{% assign groups = site.tools | group_by: "categories" | map: "name" | join: "," | remove: "["  | remove: "]" | remove: '"'  | remove: " " | split: "," | sort | uniq %}
+{{ groups }}
+<br>
+---<br>
+{% for name in groups %}
+  <h1>{{ name }}</h1><br>
+  {% for tool in site.tools %}
+     {% if tool.categories contains name %}
+       <a href="{{ tool.url }}">
+           <img alt="{{tool.title}}" src="{{ tool.logo }}"></a><br>
+      {% endif %}
+  {% endfor %}
+{% endfor %}
+---
+<br>
