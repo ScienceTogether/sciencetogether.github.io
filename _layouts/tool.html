@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+  <a href="{{ page.link }}"><img width="100" src="{{ page.logo }}"></a>
+
+  <div> <a href="{{page.wlink}}">W</a></div>
+
+  {% if page.opensource %}
+  <br> <a href="{{page.opensource}}">Open Source</a> <br>
+  {% endif %}
+
+  <div>
+      {% for os in page.os %}
+      {{os[0]}}
+        {% unless os[1] %}
+          not
+        {% endunless %}
+        {% if os[1] == 'web' %}
+          web
+        {% endif %}
+      ready <br>
+      {% endfor %}
+  </div>
+
+  <h2>Pros</h2>
+  <ul>
+      {% for pros in page.pros %}
+      <li> {{pros}} </li>
+      {% endfor %}
+  </ul>
+  <h2>Cons</h2>
+  <ul>
+      {% for cons in page.cons %}
+      <li> {{cons}} </li>
+      {% endfor %}
+  </ul>
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

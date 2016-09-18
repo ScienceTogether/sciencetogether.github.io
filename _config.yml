@@ -27,4 +27,4 @@ defaults:
       path: ""
       type: tools
     values:
-      layout: page
+      layout: tool
