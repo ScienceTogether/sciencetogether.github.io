@@ -6,14 +6,16 @@ permalink: /tools/
 
 
 {{ collection_titles }}
-<br>
 
 {% assign groups = site.tools | group_by: "categories" | map: "name" | join: "," | remove: "["  | remove: "]" | remove: '"'  | remove: " " | split: "," | sort | uniq %}
 
-
-<br>
 {% for name in groups %}
-  <h1>{{ name }}</h1><br>
+  <div class="whiteboard">
+      {% if name contains "LaTeX" %}
+        <h1><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></h1>
+      {% else %}
+        <h1>{{ name }}</h1><br>
+      {% endif %}
   {% for tool in site.tools %}
      {% if tool.categories contains name %}
        <a href="{{ tool.url }}">
@@ -21,6 +23,7 @@ permalink: /tools/
       {% endif %}
   {% endfor %}
            <br>
+  </div> <br>
 {% endfor %}
 
 <br>
