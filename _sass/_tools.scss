@@ -1,3 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+/**
+ * Whiteboard
+ */
+.whiteboard {
+    display: block;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 3px 10px;
+    padding: 18px 20px;
+    border-radius: 10px;
+    border : {
+        bottom: 4px solid black;
+    }
+    background: url(/assets/eraser-icon.png) no-repeat;
+    background-size: 30px 30px;
+    background-position: right bottom;
+    // background-color: black;
+    .whiteboard-question {
+        display: inline-table;
+        font-family: Permanent Marker;
+        font-size: 24px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 500;
+        line-height: 26.4px;
+        // color: white;
+        .whiteboard-answer {
+            display: table;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 30px;
+            .rotate90 {
+                transform: rotate(90deg);
+                width: 30px;
+                position: relative;
+                bottom: -11px;
+                left: -5px;
+            }
+        }
+    }
+    .short {
+            width: 25%;
+    }
+
+}
+
+
 /**
  * Tools
  */
