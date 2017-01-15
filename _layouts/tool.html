@@ -31,11 +31,9 @@ layout: default
 
         {% elsif page.opensource contains "gitlab" %}
           <div class="logo">
-              <div class="logo">
-                  <span class="icon icon--github">
+              <span class="icon icon--github">
                       {% include icon-gitlab.svg %}
-                  </span>
-              </div>
+              </span>
           </div>
 
         {% elsif page.opensource contains "bitbucket" %}
@@ -82,7 +80,7 @@ layout: default
   <h2 class="pros">Pros</h2>
   <ul class="whiteboard-list">
       {% for pros in page.pros %}
-      <li> {{pros}} </li>
+      <li> {{ pros | markdownify }} </li>
       {% endfor %}
   </ul>
       </div>
@@ -90,7 +88,7 @@ layout: default
   <h2 class="cons">Cons</h2>
   <ul class="whiteboard-list">
       {% for cons in page.cons %}
-      <li> {{cons}} </li>
+      <li> {{ cons | markdownify }} </li>
       {% endfor %}
   </ul>
       </div>
