@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker|Indie+Flower);
 /**
  * Whiteboard
  */
@@ -15,14 +15,17 @@
     background-size: 30px 30px;
     background-position: right bottom;
     // background-color: black;
+    font :{
+        family:  Permanent Marker;
+        style: normal;
+        variant: normal;
+        weight: 500;
+    }
+    line-height: 26.4px;
+
     .whiteboard-question {
         display: inline-table;
-        font-family: Permanent Marker;
         font-size: 24px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 500;
-        line-height: 26.4px;
         // color: white;
         .whiteboard-answer {
             display: table;
@@ -43,14 +46,24 @@
     }
     h1 {
         text-align: center;
-        font-family: Permanent Marker;
         font-size: 30px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 500;
-        line-height: 26.4px;
+    }
+    h2 {
+        font-size: 25px;
     }
 
+    .pros {
+        color: green;
+    }
+    .cons {
+        color: red;
+    }
+    .whiteboard-list {
+        font : {
+            size: 15px;
+            family: Indie Flower;
+        }
+    }
 }
 
 

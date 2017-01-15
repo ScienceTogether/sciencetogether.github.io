@@ -69,20 +69,26 @@ layout: default
       {% endfor %}
   </div>
 
-  <h2>Pros</h2>
-  <ul>
+  <div class="post-content">
+      {{ content }}
+  </div>
+  <div class="whiteboard">
+      <div class="whiteboard-question" >
+  <h2 class="pros">Pros</h2>
+  <ul class="whiteboard-list">
       {% for pros in page.pros %}
       <li> {{pros}} </li>
       {% endfor %}
   </ul>
-  <h2>Cons</h2>
-  <ul>
+      </div>
+      <div class="whiteboard-question" >
+  <h2 class="cons">Cons</h2>
+  <ul class="whiteboard-list">
       {% for cons in page.cons %}
       <li> {{cons}} </li>
       {% endfor %}
   </ul>
-  <div class="post-content">
-    {{ content }}
+      </div>
   </div>
 
 </article>
