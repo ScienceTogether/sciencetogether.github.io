@@ -1,0 +1,57 @@
+/**
+ * Tools
+ */
+.tools {
+    display: inline-block;
+    img {
+        height: 150px;
+    }
+}
+
+.tools-info {
+    display: inline-block;
+    margin: 2%;
+    img {
+        height: 40px;
+        // opacity: 0.3;
+    }
+    .logo {
+        position: relative;
+        top: -17px;
+        left: 80px;
+        z-index: 3;
+    }
+
+}
+
+.tools-os {
+    text-align: left;
+    .icon {
+        display: inline-block;
+        margin: 2%;
+        border: 0px solid black;
+        font-size: 20px;
+        img {
+            position: relative;
+            bottom: 0px;
+            top: 0px;
+            left: 0px;
+            max-height: 50px;
+        }
+        .not {
+            display: inline-block;
+            position: relative;
+            left: -42px;
+            z-index: 3;
+        }
+        .web {
+            display: inline-block;
+            position: relative;
+            width: 25px;
+            left: -32px;
+            bottom: -20px;
+            z-index: 3;
+        }
+    }
+}
+

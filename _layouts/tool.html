@@ -3,27 +3,69 @@ layout: default
 ---
 <article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-  <a href="{{ page.link }}"><img width="100" src="{{ page.logo }}"></a>
+  <div class="tools">
+    <a href="{{ page.link }}">
+      <img src="{{ page.logo }}">
+    </a>
+    {% if page.program %}
+      <h1>{{ page.program }}</h1>
+    {% endif %}
+  </div>
 
-  <div> <a href="{{page.wlink}}">W</a></div>
+  <br>
+  <div class="tools-info">
+
+    <a href="{{page.wlink}}">
+      <img src="/assets/wikipedia.png" alt="wikipedia">
+    </a>
 
   {% if page.opensource %}
-  <br> <a href="{{page.opensource}}">Open Source</a> <br>
-  {% endif %}
+      <a href="{{page.opensource}}">
+        <img src="/assets/text.png">
+        {% if page.opensource contains "github" %}
+          <div class="logo">
+            <span class="icon icon--github">
+              {% include icon-github.svg %}
+            </span>
+          </div>
 
-  <div>
+        {% elsif page.opensource contains "gitlab" %}
+          <div class="logo">
+              <div class="logo">
+                  <span class="icon icon--github">
+                      {% include icon-gitlab.svg %}
+                  </span>
+              </div>
+          </div>
+
+        {% elsif page.opensource contains "bitbucket" %}
+          <div class="logo">
+              <span class="icon icon--github">
+                  {% include icon-bitbucket.svg %}
+              </span>
+          </div>
+        {% endif %}
+      </a>
+  {% endif %}
+  </div>
+
+  <div class="tools-os">
       {% for os in page.os %}
-      {{os[0]}}
+        <div class="icon">
+          <img src="/assets/{{os[0]}}.png">
+          <!-- os icon from: http://www.freeiconspng.com/ -->
         {% unless os[1] %}
-          not
+          <div class="not">
+            <img src="/assets/forbidden.png" alt="not">
+          </div>
         {% endunless %}
         {% if os[1] == 'web' %}
-          web
+          <div class="web">
+              <img src="/assets/web.png" alt="not">
+              <!-- web icon from: http://www.iconarchive.com/show/aerial-icons-by-chromatix/web-icon.html -->
+          </div>
         {% endif %}
-      ready <br>
+        </div>
       {% endfor %}
   </div>
 
