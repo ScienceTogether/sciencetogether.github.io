@@ -145,3 +145,28 @@
 }
 
 
+/**
+ * Front page logos
+ */
+.banner-logos {
+    display: inline-block;
+    marging: auto;
+    width: 100%;
+    .title {
+        display: inline-table;
+        width: 49%; //350px;
+        marging: 20px;
+    img {
+        position: relative;
+        max-height: 90px;
+    }
+
+    font :{
+        family:  Permanent Marker;
+        style: normal;
+        variant: normal;
+        // weight: : 500px;
+    }
+    }
+
+}

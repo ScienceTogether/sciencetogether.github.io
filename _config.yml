@@ -7,13 +7,13 @@
 
 # Site settings
 title: Science Together
-#email: your-email@domain.com
+email: scitog@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Science together in an online world - which tools help you to
   success and which rules you need to follow.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sciencetogether.github.io/" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
+twitter_username: SciTog
 github_username:  sciencetogether
 #permalink: /tools/:title.html
 # Build settings
