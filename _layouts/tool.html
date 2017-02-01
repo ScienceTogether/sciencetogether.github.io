@@ -15,10 +15,11 @@ layout: default
   <br>
   <div class="tools-info">
 
+      {% if page.wlink %}
     <a href="{{page.wlink}}">
       <img src="/assets/wikipedia.png" alt="wikipedia">
     </a>
-
+    {% endif %}
   {% if page.opensource %}
       <a href="{{page.opensource}}">
         <img src="/assets/text.png">
