@@ -19,7 +19,8 @@ permalink: /tools/
   {% for tool in site.tools %}
      {% if tool.categories contains name %}
        <a href="{{ tool.url }}">
-           <img height="100" alt="{{tool.title}}" src="{{ tool.logo }}"></a>
+               <img height="100" alt="{{tool.title}}" src="{{ tool.logo }}" {% if tool.title == "etherpad" %} style="background-color:#555" {% endif %} >
+           </a>
       {% endif %}
   {% endfor %}
            <br>

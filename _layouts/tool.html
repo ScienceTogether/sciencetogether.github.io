@@ -5,7 +5,11 @@ layout: default
 
   <div class="tools">
     <a href="{{ page.link }}">
-      <img src="{{ page.logo }}">
+      <img src="{{ page.logo }}"
+         {% if page.title == "etherpad" %}
+            style="background-color:#555"
+         {% endif %}
+      >
     </a>
     {% if page.program %}
       <h1>{{ page.program }}</h1>
