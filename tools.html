@@ -11,10 +11,11 @@ permalink: /tools/
 
 {% for name in groups %}
   <div class="whiteboard">
+      <h1 id="{{name}}">
       {% if name contains "LaTeX" %}
-        <h1><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></h1>
+        <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></h1>
       {% else %}
-        <h1>{{ name }}</h1><br>
+        {{ name }}</h1><br>
       {% endif %}
   {% for tool in site.tools %}
      {% if tool.categories contains name %}
