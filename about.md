@@ -23,19 +23,19 @@ collaboration between researchers.
 
 Therefore, I'm organising this conference as part of the
 [Software Sustainable Institute's fellowship](https://www.software.ac.uk/fellowship-programme) 
-I was awarded in 2016 to find how we can ease collaboration across 
+I was awarded in 2016 to find out how we can ease collaboration across 
 domains, generations and the world.
 
 If you want to help me with the design of the page, conference or any
-other community task, don't doubt it a second!! show your interest
+other community task, don't doubt it a second!! Show your interest
 with an [issue](https://github.com/ScienceTogether/sciencetogether.github.io/issues). :)
 
 ## Sponsored by the SSI!
 
-The [Software Sustainability Institute](https://www.software.ac.uk/)'s moto is:
+The [Software Sustainability Institute](https://www.software.ac.uk/)'s motto is:
 > **Better Software, Better research**
-and following that they are behind of a lot of events, plenty of material and
+and following that, they are behind of a lot of events, plenty of material and
 a wonderful [fellowship program](https://www.software.ac.uk/fellowship-programme)
-that provides a way for many to make their dreams true while helping the community
+that provides a way for many to make their dreams come true while helping the community
 (like this event!).
 
