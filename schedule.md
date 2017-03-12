@@ -1,23 +1,29 @@
 ---
 layout: page
-title: Schedule
-permalink: /schedule/
+title: Results
+permalink: /results/
 ---
 
-Below is the schedule for the two days of Science Together.
+The two days of Science Together were distributed as:
 
+| **Time** | **2nd March**                                     | **3rd March**                             |
+|     :--- | :---                                              | :---                                      |
+|    10:30 | Intro/Keynote                                     | [1st session](/blog/categories/#1Session) |
+|    13:20 | [Workflow of tools](/blog/)                       | [2nd session](/blog/categories/#2Session) |
+|    15:30 | [speed blogging](/blog/categories/#speedblogging) | [3rd session](/blog/categories/#3session) |
+{:.mbtablestyle .whiteboard }
 
+<br>
+Check the [summary](/blog/2017-03-11-Summary.html) for the full overview of what
+happened during these two days.
 
-**Time**|**2nd March**|**3rd March**
-:-----:|:-----:|:-----:
-10:00|Registration/Coffee | Registration/Coffee
-10:30|Intro session|3rd session
-12:00|Lunch | Lunch
-13:20|1st session|4th session
-15:00|Coffee|Coffee
-15:20|2nd session|5th session
-17:00|End of day|End of unconference
+## List of posts
 
-### Hosted at:
+{% for post in site.posts %}
+ - [{{post.title}}]({{post.url}})
+{% endfor %}
 
-<a href="http://www.idea-london.co.uk/" ><img width="20%" src="http://www.idea-london.co.uk/images/logo.png"></a>
+### Categories
+
+{% for category in site.categories %} [{{category | first }}](/blog/categories/#{{ category | first | slugize }}){% endfor %}
+

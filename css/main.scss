@@ -43,7 +43,44 @@ $on-laptop:        800px;
     }
 }
 
+.gravatar {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
 
+.orcid-logo-for-author-list {
+
+    background: transparent url("https://orcid.org/sites/default/files/images/orcid_128x128.gif") center center no-repeat;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin: 0 4px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.wiki-logo-for-author-list {
+
+    background: transparent url("https://upload.wikimedia.org/wikipedia/commons/5/5a/Wikipedia%27s_W.svg") center center no-repeat;
+    width: 16px;
+    height: 16px;
+    margin: 0 4px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.mbtablestyle {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 85%;
+    border-style:hidden;
+    > table, td, th {
+        width: 12%;
+    }
+
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

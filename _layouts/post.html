@@ -1,11 +1,31 @@
 ---
 layout: default
 ---
+{% assign skipping = "name,gravatar" %}
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+        <br>
+        {% if page.authors %}
+          {% for author in page.authors %}
+            {% assign authorX = site.data.people[author] %}
+            {% assign avatar = authorX.gravatar %}
+            {% unless authorX.gravatar contains "http" %} {% assign avatar = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Pessoa_Neutra.svg/2000px-Pessoa_Neutra.svg.png' %}{% endunless %}
+            • <img class="gravatar" src = "{{avatar}}">
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ authorX.name }}</span></span>
+            {% for item in authorX %}
+              {% if skipping contains item[0] %}{% continue %}{% endif %}
+              {% assign file2read = {{item[0] | prepend: 'icon-' |append: '.html'}} %}
+              {% assign username = item[1] %}
+              {% include {{file2read}} username=username name=false %}
+            {% endfor %} <br>
+          {% endfor %}
+        {% endif %}
+    </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
