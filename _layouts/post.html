@@ -32,4 +32,10 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.pad_url %}
+  <p class="post-meta">
+      Content originally written in <a href="{{page.pad_url}}">an etherpad</a>
+      {% if page.pad_backup %}(<a href="/pads/{{page.pad_backup}}">back-up</a>){% endif %}.
+  {% endif %}
+  </p>
 </article>
