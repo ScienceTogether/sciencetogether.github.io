@@ -6,3 +6,23 @@ davidps:
   twitter: dvdgc13
   wikipedia: Dvdgc
   matrix: DavidPS:matrix.org
+brigitta:
+  gravatar: https://github.com/bsipocz.png?size=40
+  name: Brigitta Sipocz
+  orcid:
+  github: bsipocz
+  twitter: AstroBrigi
+  matrix: bsipocz:matrix.org
+danielStrien:
+  gravatar: https://github.com/davanstrien.png?size=40
+  name: Daniel van Strien
+  orcid: 0000-0003-1684-6556
+  github: davanstrien
+  twitter: vanstriendaniel
+pen:
+  gravatar: https://github.com/penyuan.png?size=40
+  name: Pen-Yuan Hsing
+  orcid: 0000-0002-5394-879X 
+  github: penyuan
+  twitter:
+  website: http://www.penonek.com/
