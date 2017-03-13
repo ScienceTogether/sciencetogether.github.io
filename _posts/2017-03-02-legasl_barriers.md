@@ -7,6 +7,8 @@ authors:
   - Sam
   - Patricia
 categories: speedblog barriers
+pad_url: https://public.etherpad-mozilla.org/p/SciTog_barriers
+pad_backup: SciTog_barriers.pad
 ---
 
 Through our discussion we have identified barriers to collaborative include
