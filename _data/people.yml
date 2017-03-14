@@ -6,3 +6,25 @@ davidps:
   twitter: dvdgc13
   wikipedia: Dvdgc
   matrix: DavidPS:matrix.org
+arren:
+  gravatar:
+  name: Arren Rathbone Ariel
+sarah:
+  gravatar:
+  name: Sarah Bryan
+  orcid:
+  twitter: sarah_bryan
+ian:
+  gravatar: https://github.com/ianmulvany.png?size=40
+  name: Ian Mulvany
+  orcid: 0000-0002-6754-1421
+  github: IanMulvany
+  twitter: IanMulvany
+  website: mulvany.net
+bianca:
+  gravatar: https://github.com/bmkramer.png?size=40
+  name: Bianca Kramer
+  orcid: 0000-0002-5965-6560
+  github: bmkramer
+  twitter: MsPhelps
+
