@@ -24,4 +24,62 @@ Patricia:
   name: Patricia Herterich
   orcid: 0000-0002-4542-9906
   github: pherterich
-  twitter: PHerterich 
+  twitter: PHerterich
+jeroen:
+  gravatar: https://pbs.twimg.com/profile_images/556002831321137152/vODd_IAK_bigger.jpeg
+  name: Jeroen Bosman
+  orcid: 0000-0001-5796-2727
+  twitter: jeroenbosman
+tamas:
+  gravatar:
+  name: Tamas Kiss
+  orcid:
+sinan:
+  gravatar: https://github.com/sinanshi.png?size=40
+  name: Sinan Shi
+  orcid: 0000-0001-6935-0429
+  github: sinanshi
+  twitter: ShiSinan
+janina:
+  gravatar:
+  name: Janina Dewitz
+  twitter:
+danb:
+  gravatar: https://github.com/DanBuchan.png?size=40
+  name: Daniel Buchan
+  orcid: 0000-0001-7391-4696
+  github: DanBuchan
+brigitta:
+  gravatar: https://github.com/bsipocz.png?size=40
+  name: Brigitta Sipocz
+  orcid:
+  github: bsipocz
+  twitter: AstroBrigi
+  matrix: bsipocz:matrix.org
+danielStrien:
+  gravatar: https://github.com/davanstrien.png?size=40
+  name: Daniel van Strien
+  orcid: 0000-0003-1684-6556
+  github: davanstrien
+  twitter: vanstriendaniel
+pen:
+  gravatar: https://github.com/penyuan.png?size=40
+  name: Pen-Yuan Hsing
+  orcid: 0000-0002-5394-879X 
+  github: penyuan
+  twitter:
+  website: http://www.penonek.com/
+raniere:
+  gravatar: https://github.com/rgaiacs.png?size=40
+  name: Raniere Silva
+  orcid: 0000-0002-8381-3749
+  github: rgaiacs
+  twitter: rgaiacs
+  website: http://rgaiacs.com/
+marion:
+  gravatar:
+  name: Marion Schumacher
+jorg:
+  gravatar: http://sassy.formativ.net/pix/sassy.png
+  name: Jörg Saßmannshausen
+  website: http://sassy.formativ.net/
