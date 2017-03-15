@@ -6,6 +6,25 @@ davidps:
   twitter: dvdgc13
   wikipedia: Dvdgc
   matrix: DavidPS:matrix.org
+Cadair:
+  gravatar: https://github.com/cadair.png?size=40
+  name: Stuart Mumford
+  orcid: 0000-0003-4217-4642
+  github: cadair
+  twitter: StuartMumford
+  matrix: Cadair:matrix.org
+Sam:
+  gravatar: https://github.com/quirksahern.png?size=40
+  name: Sam Ahern
+  github:  quirksahern
+  twitter: 2standandstare
+  website: https://2standandstare.wordpress.com/
+Patricia:
+  gravatar: https://github.com/pherterich.png?size=40
+  name: Patricia Herterich
+  orcid: 0000-0002-4542-9906
+  github: pherterich
+  twitter: PHerterich
 jeroen:
   gravatar: https://pbs.twimg.com/profile_images/556002831321137152/vODd_IAK_bigger.jpeg
   name: Jeroen Bosman
