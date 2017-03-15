@@ -8,6 +8,7 @@ authors:
   - sinan
 categories: speedblog people
 pad_url: https://public.etherpad-mozilla.org/p/jeroen_tamas_sinan
+pad_backup: SciTog_convincing_people.pad
 ---
 
  
