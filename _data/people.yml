@@ -15,4 +15,37 @@ danb:
   name: Daniel Buchan
   orcid: 0000-0001-7391-4696
   github: DanBuchan
-  
+brigitta:
+  gravatar: https://github.com/bsipocz.png?size=40
+  name: Brigitta Sipocz
+  orcid:
+  github: bsipocz
+  twitter: AstroBrigi
+  matrix: bsipocz:matrix.org
+danielStrien:
+  gravatar: https://github.com/davanstrien.png?size=40
+  name: Daniel van Strien
+  orcid: 0000-0003-1684-6556
+  github: davanstrien
+  twitter: vanstriendaniel
+pen:
+  gravatar: https://github.com/penyuan.png?size=40
+  name: Pen-Yuan Hsing
+  orcid: 0000-0002-5394-879X 
+  github: penyuan
+  twitter:
+  website: http://www.penonek.com/
+raniere:
+  gravatar: https://github.com/rgaiacs.png?size=40
+  name: Raniere Silva
+  orcid: 0000-0002-8381-3749
+  github: rgaiacs
+  twitter: rgaiacs
+  website: http://rgaiacs.com/
+marion:
+  gravatar:
+  name: Marion Schumacher
+jorg:
+  gravatar: http://sassy.formativ.net/pix/sassy.png
+  name: Jörg Saßmannshausen
+  website: http://sassy.formativ.net/
