@@ -62,9 +62,9 @@ sinan:
   github: sinanshi
   twitter: ShiSinan
 janina:
-  gravatar:
+  gravatar: https://pbs.twimg.com/profile_images/433549726223319040/6WBlFNId_bigger.png
   name: Janina Dewitz
-  twitter:
+  twitter: https://twitter.com/eLearningTechie
 danb:
   gravatar: https://github.com/DanBuchan.png?size=40
   name: Daniel Buchan
@@ -104,3 +104,7 @@ jorg:
   gravatar: http://sassy.formativ.net/pix/sassy.png
   name: Jörg Saßmannshausen
   website: http://sassy.formativ.net/
+tcouch:
+  gravatar: https://github.com/tcouch.png?size=40
+  name: Tom Couch
+  github: tcouch
