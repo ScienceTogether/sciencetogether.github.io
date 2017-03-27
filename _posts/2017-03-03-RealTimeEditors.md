@@ -3,7 +3,7 @@ layout: post
 title:  "Real Time editors"
 date:   2017-03-03 12:00:59 +0100
 authors: 
-  - DavidPS
+  - davidps
   - danielStrien
   - tcouch
   - Patricia

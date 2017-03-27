@@ -3,7 +3,7 @@ layout: post
 title:  "Pair Programming"
 date:   2017-03-03 15:00:59 +0100
 authors: 
-  - DavidPS
+  - davidps
   - Cadair
   - danielStrien
   - brigitta
