@@ -14,7 +14,7 @@ The two days of Science Together were distributed as:
 {:.mbtablestyle .whiteboard }
 
 <br>
-Check the [summary](/blog/2017-03-11-Summary.html) for the full overview of what
+Check the [summary](/blog/SciTogSummary.html) for the full overview of what
 happened during these two days.
 
 ## List of posts
