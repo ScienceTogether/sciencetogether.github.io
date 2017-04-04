@@ -31,12 +31,12 @@ adventure, which is not finished, but its first chapter has just concluded.
 
 ### Organisation
      
-As part of my fellowship I organised an un-conference to discuss the
+As part of my [Software Sustainability Institute](https://www.software.ac.uk/) Fellowship I organised an un-conference to discuss the
 possibilities, the barriers and the tools when working with people that are
 not sharing the same office or institute. (What?! do you there's no need
 because e-mail solves any situation? Don't get me started... well, let me
 tell you...) Yes, I drove the un-conference a bit "against" e-mail. But not
-because I think it's evil (yes, I do a little bit) but - as one of the
+because I think it's evil (yes, I do a little bit) but -- as one of the
 participant said in the survey for booth, the good and bad - everyone uses
 it, and as such everyone has something to comment about it.
 
@@ -57,7 +57,7 @@ use and to say one good and one bad thing about email. With the list of
 tools I created a cloud logo (shown in the image) with size weighted by
 their mentions. On the good vs bad comments received about email they could
 be classified as being popular, easy to use, you control its management and
-it is free as good things whereas the complains grouped into thinks like
+it is free as good things whereas the complains grouped into things like
 they are a source of spam, it's easy to get unmanageable threads, its
 misuse (attachments, meaningless subject lines, ...) and popularity.
 
@@ -65,18 +65,18 @@ On e-mail defence, I must say that we could get similar comments about any tool
 out there that's used, even more if these uses are beyond what they were created
 for. To level the field (or as I would say in Spanish, to level the balance)
 first thing I asked to the participants was to introduce themselves and either
-said the think the love of their less favourite tool or what they hate of their
+said the think the love of their least favourite tool or what they hate of their
 most favourite. Funny enough, most of the people decided to complain
 about [their favourite tool](https://public.etherpad-mozilla.org/p/SciTog). It
-was surprising for me to listen that tools like google docs were difficult to
+was surprising for me to listen that tools like Google Docs were difficult to
 use for some people and that I'm not the only one to have a personas crisis
 between work and personal accounts with many different identities online.
      
 I set up different tools to register the evolution of the conference, that
-included: a channel for chatting connecting IRC, `[matrix]`, slack and Gitter; a
+included: a channel for chatting connecting IRC, `[matrix]`, Slack and Gitter; a
 set of [etherpads](https://public.etherpad-mozilla.org/p/SciTog) linked with
 discussion topics and summaries of what's being discussed;
-a [zotero](https://www.zotero.org/groups/sciencetogether) team to collect papers
+a [Zotero](https://www.zotero.org/groups/sciencetogether) team to collect papers
 and blogs; and a group
 in [hypothes.is](https://hypothes.is/groups/m7Ro76d8/sciencetogether) to record
 the annotations on websites that we might have done during the two days. The
@@ -89,11 +89,12 @@ CEO of [Pivigo](https://www.pivigo.com/), telling us how to "Set your (data) sci
 company provides a service of data scientist teams that work remotely, 
 and she explained how they've managed to do so, which tools they use and which
 rules they follow. In (very)short this was by following the next steps:
- - Daily scrum meetings.
- - Daily video Q&A session (with a moderator controlling everyone talks).
- - Weekly social get-together where everyone brings a drink (weird at first).
- - Let the other people when you are away.
-She was asked few questions afterwards about remote teams working at very
+ - daily scrum meetings;
+ - daily video Q&A session (with a moderator controlling everyone talks);
+ - weekly social get-together where everyone brings a drink (weird at first);
+ - let the other people when you are away.
+
+Kim was asked few questions afterwards about remote teams working at very
 different time-zones, to which in her experience only happened one and the
 person adapted the others team member time zone.
 
@@ -106,12 +107,12 @@ librarians behind
 They made us think on how many tools we use and write them down, then link them
 if they integrated with others. They introduced their analysis of workflows
 between different tools and some other results from their analysis. We then went
-trough an exercise to
+through an exercise to
 [list](https://docs.google.com/spreadsheets/d/1z9PDiHMvXrw0bJUMtnRkC0UgOq1P-NI8Q_8reJ3DBb4/edit?usp=sharing) 
 and discuss the no-go or attractiveness on any tool we aim to use.
      
 Finally the last session of the day started as a free will with a [speedblogging
-activity](/blog/categories/#speedblogging). Where different topics where discussed:
+activity](/blog/categories/#speedblogging). Where different topics were discussed:
 - [People barriers](/blog/people_barriers.html)
 - [Issues and solutions in convincing people to select, adopt, and use certain collaboration tools](/blog/convincing-people.html)
 - [What goes into a guide to doing open science?](/blog/openscience.html)
