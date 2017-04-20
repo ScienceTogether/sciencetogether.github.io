@@ -5,6 +5,7 @@ date:   2017-03-11 12:02:59
 authors: 
   - davidps
 categories: summary
+postedtoo: https://www.software.ac.uk/blog/2017-04-20-story-about-science-together-unconference-about-tools-and-rules-collaborative
 ---
 
 ## #SciTog Summary
